@@ -1,0 +1,22 @@
+.container-menu-bar > ul{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    
+}
+.container-menu-bar > ul > li{
+    margin-right: 2rem;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.container-menu-bar > ul > li > a{
+    color: black;
+    font-weight: bolder;
+}
+
+.container-menu-bar > ul > li:hover{
+    background-color: rgb(207, 207, 207);
+}

@@ -1,0 +1,27 @@
+
+.container-small-card{
+    margin-left: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.small-card-img > img{
+    width: 20rem;
+    margin: 1rem;
+}
+
+.small-card-title{
+    text-align: center;
+
+}
+
+.small-card-date{
+    text-align: end;
+    font-size: smaller;
+    color: gray;
+}
+
+hr{
+    margin-left: 5rem;
+}
