@@ -9,11 +9,13 @@ import { Component, Input } from '@angular/core';
 })
 export class SmallCardComponent {
   @Input()
-  smallPhoto:string=''
+  photoCover:string=''
   @Input()
-  smallTitle:string=''
+  cardTitle:string=''
   @Input()
-  smallDate:string=''
+  cardDescription:string=''
+  @Input()
+  id:string=''
   constructor(){
 
   }
